@@ -25,11 +25,11 @@ for k in range(0,exact + stepMagnitude + 1):
     if i ** 2 == num:
         print(num,"is exactly",i,"squared")
         print(calcs)
-        sys.exit()
+        exit()
     if k == exact + stepMagnitude:
         print("the square root of",num,"is approx", round(i,exact))
         print(calcs)
-        sys.exit()
+        exit()
     #if were looping, take i back a step and reduce the step size 
     i -= step
     step /= 10
