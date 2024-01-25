@@ -1,3 +1,9 @@
+#This game is a text based RPG based on the characters of Lord of the Rings
+#you play as a wizard with various spells
+#you and your team of fighters, archers and more face off against creatures
+#with there own sets of specialized skills
+#Good luck and have fun!
+
 import random
 import time
 
